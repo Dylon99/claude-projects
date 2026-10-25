@@ -1,2 +1,4 @@
 # Keep full-res originals out of git; only processed web copies are committed.
 originals/
+__pycache__/
+.venv/
