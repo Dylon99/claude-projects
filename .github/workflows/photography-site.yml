@@ -1,0 +1,50 @@
+name: Deploy photography site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "photography-site/**"
+      - ".github/workflows/photography-site.yml"
+  workflow_dispatch:
+
+# Least privilege: read the repo, write only to Pages via OIDC.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Validate photos.json
+        run: python3 -c "import json; d=json.load(open('photography-site/photos.json')); assert isinstance(d['photos'], list)"
+
+      # Publish only runtime files; tools/ and docs stay out of the site.
+      - name: Stage site
+        run: |
+          mkdir _site
+          cp -r photography-site/index.html photography-site/photos.json \
+                photography-site/assets photography-site/photos _site/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
