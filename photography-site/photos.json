@@ -1,0 +1,114 @@
+{
+  "_comment": "Sample placeholders from picsum.photos. Run tools/build_gallery.py to replace with your own photos.",
+  "photos": [
+    {
+      "title": "Sample 01",
+      "category": "landscape",
+      "src": "https://picsum.photos/id/1015/1600/1067",
+      "thumb": "https://picsum.photos/id/1015/800/533",
+      "width": 1600,
+      "height": 1067,
+      "alt": "Placeholder photo \u2014 replace with your own",
+      "featured": true
+    },
+    {
+      "title": "Sample 02",
+      "category": "landscape",
+      "src": "https://picsum.photos/id/1018/1200/1600",
+      "thumb": "https://picsum.photos/id/1018/600/800",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Placeholder photo \u2014 replace with your own"
+    },
+    {
+      "title": "Sample 03",
+      "category": "street",
+      "src": "https://picsum.photos/id/1031/1600/1067",
+      "thumb": "https://picsum.photos/id/1031/800/533",
+      "width": 1600,
+      "height": 1067,
+      "alt": "Placeholder photo \u2014 replace with your own"
+    },
+    {
+      "title": "Sample 04",
+      "category": "nature",
+      "src": "https://picsum.photos/id/1039/1600/1067",
+      "thumb": "https://picsum.photos/id/1039/800/533",
+      "width": 1600,
+      "height": 1067,
+      "alt": "Placeholder photo \u2014 replace with your own"
+    },
+    {
+      "title": "Sample 05",
+      "category": "landscape",
+      "src": "https://picsum.photos/id/1036/1200/1600",
+      "thumb": "https://picsum.photos/id/1036/600/800",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Placeholder photo \u2014 replace with your own"
+    },
+    {
+      "title": "Sample 06",
+      "category": "street",
+      "src": "https://picsum.photos/id/1067/1600/1067",
+      "thumb": "https://picsum.photos/id/1067/800/533",
+      "width": 1600,
+      "height": 1067,
+      "alt": "Placeholder photo \u2014 replace with your own"
+    },
+    {
+      "title": "Sample 07",
+      "category": "nature",
+      "src": "https://picsum.photos/id/1043/1600/1200",
+      "thumb": "https://picsum.photos/id/1043/800/600",
+      "width": 1600,
+      "height": 1200,
+      "alt": "Placeholder photo \u2014 replace with your own"
+    },
+    {
+      "title": "Sample 08",
+      "category": "landscape",
+      "src": "https://picsum.photos/id/1044/1200/1600",
+      "thumb": "https://picsum.photos/id/1044/600/800",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Placeholder photo \u2014 replace with your own"
+    },
+    {
+      "title": "Sample 09",
+      "category": "street",
+      "src": "https://picsum.photos/id/1057/1600/1067",
+      "thumb": "https://picsum.photos/id/1057/800/533",
+      "width": 1600,
+      "height": 1067,
+      "alt": "Placeholder photo \u2014 replace with your own"
+    },
+    {
+      "title": "Sample 10",
+      "category": "nature",
+      "src": "https://picsum.photos/id/1062/1600/1200",
+      "thumb": "https://picsum.photos/id/1062/800/600",
+      "width": 1600,
+      "height": 1200,
+      "alt": "Placeholder photo \u2014 replace with your own"
+    },
+    {
+      "title": "Sample 11",
+      "category": "landscape",
+      "src": "https://picsum.photos/id/1080/1200/1600",
+      "thumb": "https://picsum.photos/id/1080/600/800",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Placeholder photo \u2014 replace with your own"
+    },
+    {
+      "title": "Sample 12",
+      "category": "nature",
+      "src": "https://picsum.photos/id/1084/1600/1067",
+      "thumb": "https://picsum.photos/id/1084/800/533",
+      "width": 1600,
+      "height": 1067,
+      "alt": "Placeholder photo \u2014 replace with your own"
+    }
+  ]
+}
